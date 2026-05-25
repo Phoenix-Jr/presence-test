@@ -83,7 +83,7 @@ export function ManualOverride() {
                     variant="ghost"
                     className="h-7 w-7 hover:bg-emerald-100 hover:text-emerald-700 dark:hover:bg-emerald-900/40"
                     onClick={() => {
-                      markPresent(m.id, m.name);
+                      markPresent(m.id, m.name, m.gender, m.ageGroup);
                       toast.success(`${m.name} marked present`);
                     }}
                   >
